@@ -1,0 +1,27 @@
+{
+   "name": "backend-init-example",
+   "version": "0.0.1",
+   "description": "Awesome project developed with TypeORM.",
+   "devDependencies": {
+      "@types/cors": "^2.8.12",
+      "@types/express": "^4.17.13",
+      "@types/node": "^8.0.29",
+      "ts-node": "3.3.0",
+      "typescript": "3.3.3333"
+   },
+   "dependencies": {
+      "cors": "^2.8.5",
+      "dotenv": "^16.0.0",
+      "express": "^4.17.2",
+      "morgan": "^1.10.0",
+      "mysql": "npm:mysql2@^2.1.0",
+      "reflect-metadata": "^0.1.10",
+      "typeorm": "0.2.41"
+   },
+   "scripts": {
+      "start": "ts-node src/index.ts",
+      "typeorm": "node --require ts-node/register ./node_modules/typeorm/cli.js",
+      "build": "tsc",
+      "starting": "node dist/index.js"
+   }
+}
