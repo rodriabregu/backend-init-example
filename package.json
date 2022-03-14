@@ -2,6 +2,8 @@
    "name": "backend-init-example",
    "version": "0.0.1",
    "description": "Awesome project developed with TypeORM.",
+   "author": "Rodrigo Alcino",
+   "license": "MIT",
    "devDependencies": {
       "@types/cors": "^2.8.12",
       "@types/express": "^4.17.13",
